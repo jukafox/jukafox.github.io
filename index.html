@@ -3,29 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donde empieza el camino – Libro de iniciación al budō | Jukafox</title>
-    <meta name="description" content="Guía clara, práctica y bien estructurada para iniciarte en las artes marciales japonesas. Aprende técnica, filosofía y psicología desde el primer día." />
-    <meta name="keywords" content="libro artes marciales, guía judo principiantes, empezar budo, budō, judo, karate, aikido, defensa personal, filosofía marcial, artes marciales japonesas, libro dojo, iniciación budo, psicología del entrenamiento, jukafox, Dr. J.M. Guillot" />
+    <title>Donde empieza el camino – Guía para iniciarte en el budō | Jukafox</title>
+    <meta name="description" content="Guía esencial para iniciarte en las artes marciales japonesas. Aprende judo, aikido, jiujitsu, defensa personal y más con claridad, ciencia y filosofía. Por Dr. J.M. Guillot." />
+    <meta name="keywords" content="libro artes marciales, artes marciales japonesas, budo, judo, karate, aikido, defensa personal, iniciarse en artes marciales, filosofía samurái, entrenamiento emocional, libro dojo, jukafox, J.M. Guillot, empezar judo, empezar aikido, budō para principiantes" />
     <meta name="author" content="Dr. J.M. Guillot" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Donde empieza el camino – Guía para iniciarte en el budō" />
-    <meta property="og:description" content="Una guía práctica que combina ciencia, técnica y filosofía para aprender artes marciales japonesas con sentido." />
+    <meta property="og:description" content="Una guía clara y bien estructurada que combina ciencia, filosofía y psicología para que entrenes artes marciales con sentido desde el primer día." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://jukafox.github.io" />
-    <meta property="og:image" content="https://jukafox.github.io/Jukafox_cover.png" />
-    <meta property="og:site_name" content="Jukafox – Donde empieza el camino" />
+    <meta property="og:url" content="https://jukafox.com" />
+    <meta property="og:image" content="https://jukafox.com/Jukafox_cover.png" />
     <meta property="og:locale" content="es_ES" />
 
-    <!-- Twitter Card -->
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Donde empieza el camino – Libro de iniciación al budō" />
-    <meta name="twitter:description" content="Aprende artes marciales japonesas con criterio. Técnica, filosofía y psicología en una guía clara para avanzar desde el primer día." />
-    <meta name="twitter:image" content="https://jukafox.github.io/Jukafox_cover.png" />
+    <meta name="twitter:description" content="Entrena con criterio desde el primer día. Una guía de artes marciales con ciencia, filosofía y claridad." />
+    <meta name="twitter:image" content="https://jukafox.com/Jukafox_cover.png" />
     <meta name="twitter:site" content="@jukafox" />
 
-    <!-- JSON-LD para buscadores -->
+    <!-- JSON-LD SEO -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -36,9 +35,9 @@
         "@type": "Person",
         "name": "Dr. J.M. Guillot"
       },
-      "description": "Una guía clara, práctica y bien estructurada que combina ciencia, filosofía y psicología para entrenar artes marciales con sentido desde el primer día.",
-      "url": "https://jukafox.github.io",
-      "image": "https://jukafox.github.io/Jukafox_cover.png",
+      "description": "Guía clara y accesible para entrenar artes marciales japonesas desde el primer día. Con principios de biomecánica, filosofía budō, técnicas básicas y estrategias mentales.",
+      "image": "https://jukafox.com/Jukafox_cover.png",
+      "url": "https://jukafox.com",
       "offers": {
         "@type": "Offer",
         "url": "https://www.amazon.es/dp/840975083X",
@@ -55,107 +54,77 @@
         box-sizing: border-box;
       }
       html, body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 100%;
         background-color: #F5F7F6;
-        color: #111;
+        font-family: sans-serif;
+        color: #010101;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        line-height: 1.6;
       }
-      .container {
-        padding: 2rem;
-        max-width: 900px;
-        margin: auto;
-      }
-      .image-container img {
-        max-width: 300px;
-        height: auto;
-        margin-bottom: 2rem;
+      .image-container {
+        background-image: url("Jukafox_cover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        max-width: 600px;
+        height: 70vh;
       }
       .lang-buttons {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        gap: 2rem;
-        margin-bottom: 1.5rem;
+        gap: 1rem;
+        margin-top: 1.5rem;
       }
       .lang-buttons a {
         text-decoration: none;
-        font-size: 1.1rem;
-        padding: 0.8rem 2rem;
-        border-radius: 6px;
-        background-color: #000;
-        color: #fff;
+        font-size: 1rem;
+        padding: 0.7rem 1.4rem;
+        border-radius: 8px;
+        background-color: #010101;
+        color: #F5F7F6;
         font-weight: bold;
-        transition: all 0.3s ease-in-out;
+        transition: background-color 0.3s;
       }
       .lang-buttons a:hover {
         background-color: #8E1416;
+        color: #fff;
       }
       .instagram-link {
-        margin-bottom: 2rem;
-        font-weight: bold;
+        margin-top: 1rem;
       }
       .instagram-link a {
         color: #8E1416;
         text-decoration: none;
+        font-weight: bold;
       }
-      .book-description {
-        text-align: left;
-        margin: auto;
-        padding: 1rem;
-        background: #fff;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      }
-      .book-description h2 {
-        margin-top: 1rem;
-        font-size: 1.3rem;
-        color: #222;
-      }
-      .book-description ul {
-        padding-left: 1.2rem;
-        margin-top: 0.5rem;
-      }
-      .book-description ul li {
-        margin-bottom: 0.5rem;
+      .hidden-seo-text {
+        font-size: 1px;
+        color: #F5F7F6;
+        max-width: 600px;
+        margin-top: 2rem;
       }
     </style>
-    <meta name="google-site-verification" content="HVsaF1YzHywubHsUcV1Q--i-fpAjsFej5xXvBHBFOCo" />
   </head>
   <body>
-    <div class="container">
-      <div class="image-container">
-        <img src="Jukafox_cover.png" alt="Portada del libro Donde empieza el camino" />
-      </div>
-      <div class="lang-buttons">
-        <a href="https://www.amazon.es/dp/840975083X" target="_blank">Español</a>
-        <a href="#" onclick="alert('Coming soon')">English</a>
-      </div>
-      <div class="instagram-link">
-        <p><a href="https://www.instagram.com/jukafox/" target="_blank">Instagram</a></p>
-      </div>
-      <div class="book-description">
-        <h2>Donde empieza el camino</h2>
-        <p>Donde empieza el camino no es un manual de técnicas ni una colección de frases filosóficas. Es una guía clara, práctica y bien estructurada que combina ciencia, filosofía y psicología para que puedas entrenar con criterio, entender lo que haces desde el primer día y avanzar sin perderte entre tecnicismos ni enredos místicos.</p>
-        <p><strong>Aprenderás:</strong></p>
-        <ul>
-          <li>Los principios científicos del movimiento: física, biomecánica, equilibrio, fuerza y respiración.</li>
-          <li>Técnicas básicas explicadas paso a paso: caídas, proyecciones, golpes y controles.</li>
-          <li>La filosofía marcial japonesa aplicada a la vida cotidiana: budō, zen, bushidō y estrategia.</li>
-          <li>Claves de psicología y autorregulación emocional para entrenar sin frustrarte.</li>
-          <li>Un glosario útil para que el lenguaje del dōjō no sea un misterio.</li>
-        </ul>
-
-        <h2>Where the Path Begins</h2>
-        <p>Where the Path Begins is not a manual of techniques or a collection of philosophical quotes. It is a clear, practical and well-structured guide that combines science, philosophy and psychology so that you can train with understanding, know what you're doing from day one, and progress without getting lost in technicalities or mysticism.</p>
-        <p><strong>You will learn:</strong></p>
-        <ul>
-          <li>The scientific principles of movement: physics, biomechanics, balance, strength and breathing.</li>
-          <li>Basic techniques step by step: falls, projections, strikes and controls.</li>
-          <li>Japanese martial philosophy applied to everyday life: budō, zen, bushidō and strategy.</li>
-          <li>Psychological tools and emotional self-regulation to train without frustration.</li>
-          <li>A useful glossary so that the language of the dōjō is not a mystery.</li>
-        </ul>
-      </div>
+    <div class="image-container"></div>
+    <div class="lang-buttons">
+      <a href="https://www.amazon.es/dp/840975083X" target="_blank">Español (España)</a>
+      <a href="https://www.amazon.com/dp/840975083X/" target="_blank">Español (Latam / US)</a>
+      <a href="#" onclick="alert('Coming soon')">English (UK)</a>
+      <a href="#" onclick="alert('Coming soon')">English (World / US)</a>
+      <a href="#" onclick="alert('Prossimamente')">Italiano</a>
+      <a href="#" onclick="alert('Demnächst verfügbar')">Deutsch</a>
+    </div>
+    <div class="instagram-link">
+      <p><a href="https://www.instagram.com/jukafox/" target="_blank">Instagram</a></p>
+    </div>
+    <div class="hidden-seo-text">
+      Donde empieza el camino es una guía clara y accesible para iniciarse en las artes marciales japonesas. El libro combina explicaciones prácticas de biomecánica, técnicas de judo, aikido, jiujitsu y defensa personal con conceptos de filosofía japonesa (budō, bushidō, zen) y psicología aplicada al entrenamiento. Ideal para principiantes, adolescentes, adultos y docentes que buscan un enfoque moderno, integrador y sin misticismos. Disponible en Amazon España y Amazon USA. Escrito por el Dr. J.M. Guillot, con experiencia en Japón y formación científica. Incluye ilustraciones generadas por IA, glosario, y consejos para evitar frustraciones comunes en el dōjō. | Where the Path Begins is a clear and accessible guide to getting started in Japanese martial arts. It blends biomechanics, basic techniques, Japanese philosophy (budō, bushidō, zen), and applied psychology. | Dove inizia il cammino è una guida chiara e accessibile per iniziare nelle arti marziali giapponesi. | Wo der Weg beginnt ist ein klarer, strukturierter Leitfaden für Einsteiger in die japanischen Kampfkünste.
     </div>
   </body>
 </html>
